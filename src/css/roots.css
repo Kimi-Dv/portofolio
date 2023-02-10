@@ -1,0 +1,58 @@
+html{
+    scroll-behavior: smooth;
+}
+
+:root {
+    --bg-main: #1b242f;
+    --bg-second: #2f2e41;
+
+    --color-main: #d9d9d9;
+    --color-second: #e31b6d;
+
+    --font-main: 'Bebas Neue', cursive;
+    --font-second: 'Azeret Mono', monospace;
+}
+
+/* CUSTOM SCROLLBAR */
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--bg-second);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--color-second);
+}
+
+
+/* CUSTOM CSS */
+
+.d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.m-width {
+    width: 100%;
+}
+
+/* COLOR EFFECT */
+
+.color-effect{
+    color: var(--color-second);
+}
+
+/* SPACE COMPONENTS */
+
+.home,
+.about,
+.stack,
+.project,
+.form{
+    min-height: 100vh;
+    /* border: 1px solid gray; */
+}
