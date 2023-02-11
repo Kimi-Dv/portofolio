@@ -2,7 +2,7 @@ function Form() {
     return (
         <div className="form d-flex " id="form">
             <section className="form-logo d-flex">
-                <img src="/public/logo.svg" alt="logo-page" loading="lazy" className="form-logo__img" />
+                <img src="/logo.svg" alt="logo-page" loading="lazy" className="form-logo__img" />
                 <p className="form-logo__text">Hi, Are you interested in working together?</p>
             </section>
             <section className="form-contact form-contact-box">
