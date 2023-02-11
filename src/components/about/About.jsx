@@ -2,7 +2,7 @@ function About() {
   return (
     <div className="about " id="about">
       <div className="about-img">
-        <img src="/public/logo.svg" alt="image-people" loading="lazy"/>
+        <img src="/logo.svg" alt="image-people" loading="lazy"/>
       </div>
       <div className="about-content">
         <h2 className="about-content__title">Hi, my name is <span className="color-effect">Christian Josue.</span> </h2>

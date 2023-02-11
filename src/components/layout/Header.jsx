@@ -11,7 +11,7 @@ function Header() {
         <header className="header m-width">
             <div className="logo">
                 <a href="#home">
-                    <img src="/public/logo.svg" alt="logo-page" className="logo__img m-width" />
+                    <img src="/logo.svg" alt="logo-page" className="logo__img m-width" />
                 </a>
             </div>
 

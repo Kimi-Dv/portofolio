@@ -8,7 +8,7 @@ function Home() {
                 </p>
             </div>
             <div className="home-image">
-                <img className="m-width" src="/src/assets/svg/main.svg" alt="main-image" loading="lazy" />
+                <img className="m-width" src="/svg/main.svg" alt="main-image" loading="lazy" />
             </div>
         </div>
     );

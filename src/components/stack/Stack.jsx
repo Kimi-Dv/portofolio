@@ -21,7 +21,7 @@ function Stack() {
             </section>
 
             <div className="stack-img d-flex">
-                <img src="/src/assets/img/stack.png" alt="image-stack" className="m-width" loading="lazy" />
+                <img src="/img/stack.png" alt="image-stack" className="m-width" loading="lazy" />
             </div>
 
         </div>
